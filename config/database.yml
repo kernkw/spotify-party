@@ -1,0 +1,19 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  host: localhost
+  port: 3306
+  database: dev_spotify_app 
+  pool: 10
+  username: root
+  password: password
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  host: localhost
+  port: 3306
+  database: dev_spotify_app_test
+  pool: 10
+  username: root
+  password: password
